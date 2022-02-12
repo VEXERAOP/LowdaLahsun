@@ -292,7 +292,7 @@ async def video_play(_, message):
             await app.join_group_call(
                 chat_id,
                 damn(playlink),
-                HighQualityAudio(),
+                
                 stream_type=StreamType().pulse_stream
             )
             add_to_queue(chat_id, yt.title, duration, link, playlink, doom, Q, thumb)
