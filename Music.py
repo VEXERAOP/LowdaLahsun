@@ -12,7 +12,7 @@ from pytgcalls import PyTgCalls, idle
 from pytgcalls.types import Update
 from pyrogram.raw.base import Update
 from pytgcalls.types.input_stream import AudioPiped, AudioVideoPiped
-from pytgcalls.types import (
+from pytgcalls.types.input_stream.quality import (
     HighQualityAudio,
     HighQualityVideo,
     LowQualityVideo,
