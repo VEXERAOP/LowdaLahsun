@@ -5,3 +5,4 @@ youtube_search
 pytube
 yt-dlp==2021.11.10.1
 skem
+youtube-dl
