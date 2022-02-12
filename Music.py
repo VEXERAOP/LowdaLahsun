@@ -11,7 +11,7 @@ from youtube_search import YoutubeSearch
 from pytgcalls import PyTgCalls, idle
 from pytgcalls.types import Update
 from pyrogram.raw.base import Update
-from pytgcalls.types import AudioPiped, AudioVideoPiped
+from pytgcalls.types.input_stream import AudioPiped, AudioVideoPiped
 from pytgcalls.types import (
     HighQualityAudio,
     HighQualityVideo,
