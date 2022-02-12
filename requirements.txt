@@ -3,6 +3,5 @@ py-tgcalls
 tgcrypto
 youtube_search
 pytube
-yt_dlp
-youtube_dl
+yt-dlp==2021.11.10.1
 skem
