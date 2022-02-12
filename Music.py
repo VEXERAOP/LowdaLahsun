@@ -4,6 +4,7 @@ import json
 import logging
 import asyncio
 import youtube_dl
+import yt_dlp
 from pytgcalls import StreamType
 from pytube import YouTube
 from youtube_search import YoutubeSearch
