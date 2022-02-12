@@ -270,7 +270,7 @@ async def video_play(_, message):
         cap = f"▶️ <b>Now playing:</b> [{yt.title}]({link}) | `{doom}` \n\n⏳ <b>Duration:</b> {duration}"
         try:
             ydl_opts = {"format": "bestvideo[height<=720]+bestaudio/best[height<=720]"}
-            ydl = youtube_dl.YoutubeDL(ydl_opts)
+            ydl = yt_dlp.YoutubeDL(ydl_opts)
             info_dict = ydl.extract_info(link, download=False)
             p = json.dumps(info_dict)
             a = json.loads(p)
