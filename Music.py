@@ -39,20 +39,7 @@ OWNER_ID = int(os.environ["OWNER_ID"])
 
 LIVE_CHATS = []
 
-START_TEXT = """
-Hi <b>{}</b> 👋
-I can play music & stream videos in Telegram group voice chats. 
-Make your own bot using below source code.
-"""
 
-START_BUTTONS = InlineKeyboardMarkup(
-    [
-        [
-            InlineKeyboardButton("📨 Support", url="https://t.me/JaguarBots"),
-            InlineKeyboardButton("📚 Source Code", url="https://github.com/ImJanindu/47MusicPlayerBot")
-        ]
-    ]
-)
 
 BUTTONS = InlineKeyboardMarkup(
     [
