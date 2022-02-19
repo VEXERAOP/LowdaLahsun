@@ -4,10 +4,10 @@ ffmpeg-python
 py-tgcalls
 pyrogram
 youtube-search-python
-yt_dlp
-youtube_dl
-youtube-search
 yt-dlp
+youtube-dl
+youtube-search
+
 python-dotenv
 dnspython
 gitpython
@@ -20,3 +20,4 @@ motor
 psutil
 future
 wget
+pytube
