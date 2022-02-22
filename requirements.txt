@@ -21,4 +21,4 @@ psutil
 future
 wget
 
-py-dl
+git+https://github.com/py-dl/py-dl
