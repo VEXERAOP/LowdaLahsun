@@ -6,7 +6,7 @@ import asyncio
 import youtube_dl
 import yt_dlp
 from pytgcalls import StreamType
-from Py-DL import YouTube
+from py_dl import YouTube
 from youtube_search import YoutubeSearch
 from pytgcalls import PyTgCalls, idle
 from pytgcalls.types import Update
