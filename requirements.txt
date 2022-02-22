@@ -20,5 +20,5 @@ motor
 psutil
 future
 wget
-pytube
+
 py-dl
